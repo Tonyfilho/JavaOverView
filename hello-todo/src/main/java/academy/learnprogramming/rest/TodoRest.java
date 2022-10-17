@@ -60,11 +60,13 @@ public class TodoRest {
      
      @Path("{id}")
      @GET
+     @SuppressWarnings("empty-statement")
      public Todo getTodo(@PathParam("id") Long id) {
          Todo todoById =  todoService.findTodoById(id);
          if(todoById == null) {
           return null;
          };
+       
          return todoById;
     }
      
