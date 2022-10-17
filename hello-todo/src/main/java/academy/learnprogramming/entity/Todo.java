@@ -15,7 +15,7 @@ import javax.persistence.PrePersist;
  *
  * @author Tony
  */
-@Entity /*Informa ao JAVAX que este Objeto é uam ENTIDADE*/
+@Entity /*Informa ao JAVAX que este Objeto é uam ENTIDADE*, foi criando PersisteUNIT com a DB******/
 public class Todo {
     
     @Id    /*Informa ao JAVAX que isto é um ID*/
